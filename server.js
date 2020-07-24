@@ -1,17 +1,13 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
-// const router = express.Router()
 require('dotenv/config')
-// const cors = require('cors')
+
 const app = express()
 const router = express.Router()
-// BodyParser Middleware
-app.use(bodyParser.json())
-// Allowing client-side to connect
-// app.use(cors())
 
-// Connect to MongoDB
+app.use(bodyParser.json())
+
 const uri = process.env.MONGO_URI;
 
 mongoose.connect(uri, {useNewUrlParser: true,useUnifiedTopology: true})
