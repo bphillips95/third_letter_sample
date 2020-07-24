@@ -1,6 +1,8 @@
 ## Third letter API
 A small API that sends back every third letter of a string
 
+#### *The API is hosted on Heroku which can take some time the first time it's run.*
+
 You can run the API by sending a POST request to https://third-letter.herokuapp.com/test 
 
 Pass in the body of the request a Javascipt Object, with key `"string_to_cut"` and the value the string you want cut.
