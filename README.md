@@ -15,4 +15,4 @@ Headers should have `Content-Type: application/json`
 
 To try out run this in terminal.
 ```js
-curl -X POST http://third-letter.herokuapp.com/test --data '{"string_to_cut": "howsitgoingtoday"}' -H 'Content-Type: application/json'`
+curl -X POST http://third-letter.herokuapp.com/test --data '{"string_to_cut": "howsitgoingtoday"}' -H 'Content-Type: application/json'
